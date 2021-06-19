@@ -34,7 +34,7 @@ const CopyRightArea = styled.div`
   padding: 15px 0;
   p {
     color: ${({ dark, theme }) =>
-      dark ? theme.colors.lightShade : theme.colors.darkShade};
+    dark ? theme.colors.lightShade : theme.colors.darkShade};
     font-size: 13px;
     font-weight: 300;
     letter-spacing: -0.41px;
@@ -48,7 +48,7 @@ const CopyRightArea = styled.div`
     display: inline-flex;
     a {
       color: ${({ dark, theme }) =>
-        dark ? theme.colors.light : theme.colors.dark} !important;
+    dark ? theme.colors.light : theme.colors.dark} !important;
       font-size: 16px;
       transition: 0.4s;
       padding: 0 3px;
@@ -79,7 +79,7 @@ const Footer = ({ isDark = true }) => {
               <Col lg="2" md="4">
                 <Logo white={isDark} />
               </Col>
-              {/* <Col lg="10" md="8" className="mt-5 mt-lg-0">
+              <Col lg="10" md="8" className="mt-5 mt-lg-0">
                 <Row>
                   <Col xs="6" lg="3">
                     <div className="mb-5 mb-lg-4">
@@ -185,7 +185,7 @@ const Footer = ({ isDark = true }) => {
                     </div>
                   </Col>
                 </Row>
-              </Col>  */}
+              </Col>
             </Row>
           </Box>
           <CopyRightArea dark={isDark ? 1 : 0}>

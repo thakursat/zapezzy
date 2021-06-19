@@ -95,8 +95,20 @@ export const menuItems = [
     ],
   },
   {
-    name: "https://uxtheme.net/product-support/",
-    label: "Support",
-    isExternal: true,
+    name: "services",
+    label: "Services",
   },
+  {
+    name: "about",
+    label: "About",
+  },
+  {
+    name: "career",
+    label: "Career",
+  },
+  {
+    name: "contact",
+    label: "Contact",
+  },
+
 ];

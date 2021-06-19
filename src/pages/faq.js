@@ -1,8 +1,6 @@
 import React from "react";
 import styled from "styled-components";
 import { Container, Row, Col, Nav, Tab } from "react-bootstrap";
-
-import PageWrapper from "../components/PageWrapper";
 import { Section, Title, Text, Box, Span } from "../components/Core";
 
 const NavStyled = styled(Nav)`
@@ -24,202 +22,106 @@ const NavStyled = styled(Nav)`
 const Faq = () => {
   return (
     <>
-      <PageWrapper footerDark>
-        <Section className="pb-0">
-          <div className="pt-5"></div>
-          <Container>
-            <Row className="justify-content-center text-center">
-              <Col lg="9">
-                <Title variant="hero">Frequently Asked Question</Title>
-                <Text>
+
+      <Section className="pb-0">
+        <div className="pt-5"></div>
+        <Container>
+          <Row className="justify-content-center text-center">
+            <Col lg="9">
+              <Title variant="hero">Frequently Asked Question</Title>
+              {/* <Text>
                   Create custom landing pages with Zapezzy that converts
-                </Text>
+                </Text> */}
+            </Col>
+          </Row>
+        </Container>
+      </Section>
+      <Section>
+        <Container>
+          <Tab.Container id="left-tabs-example" defaultActiveKey="general">
+            <Row>
+              <Col md="4" className="mb-5 mb-md-0">
+                <NavStyled className="flex-column mr-md-5">
+                  <Nav.Link eventKey="general">General</Nav.Link>
+                  <Nav.Link eventKey="pricing">Pricing</Nav.Link>
+                </NavStyled>
+              </Col>
+              <Col md="8">
+                <Tab.Content>
+                  <Tab.Pane eventKey="general">
+                    <Box>
+                      <Box mb={4}>
+                        <Title variant="card" mb={3} fontSize="24px">
+                          What Is A Digital Agency?
+                        </Title>
+                        <Text variant="small">
+                          A digital agency is a company that leverages digital channels to grow their clients’ brands online. <br />
+
+                          “Digital agency” is typically used as an umbrella term for a variety of agencies that combine expertise in different channels and technologies such as web design, digital marketing, creative design and app development, for instance.
+                        </Text>
+                      </Box>
+                      <Box mb={4}>
+                        <Title variant="card" mb={3} fontSize="24px">
+                          What services does a digital agency provide?
+                        </Title>
+                        <Text variant="small">
+                          Digital agency services include, but are not limited to:
+
+                          <ul>- Digital strategy and consulting</ul>
+                          <ul>- Web design and development</ul>
+                          <ul>- Digital marketing including social media, email marketing and more</ul>
+                          Some digital agencies also provide software and app development, digital transformation and even branding and creative services.
+                        </Text>
+                      </Box>
+                      <Box mb={4}>
+                        Didn’t find your answer?{" "}
+                        <a href="/">
+                          <Span color="primary">Contact us here</Span>
+                        </a>
+                      </Box>
+                    </Box>
+                  </Tab.Pane>
+                  <Tab.Pane eventKey="pricing">
+                    <Box>
+                      <Box mb={4}>
+                        <Title variant="card" mb={3} fontSize="24px">
+                          How do digital agencies charge for their services?
+                        </Title>
+                        <Text variant="small">
+                          Digital agencies typically price their services based on hourly rates.
+                          <br />
+                          Whether you are looking to outsource a one-time project like website development or to partner with an agency on a retainer basis, you will most likely receive a pricing range based on the estimate of the number of hours your project would require.
+                        </Text>
+                      </Box>
+                      <Box mb={4}>
+                        <Title variant="card" mb={3} fontSize="24px">
+                          How to choose a digital agency?
+                        </Title>
+                        <Text variant="small">
+                          The first step to choosing a digital agency is to filter the candidates based on expertise. Match their capabilities to your requirement.
+                          <br />
+                          The second step is to shortlist the candidates based on rates and portfolios.
+                          <br />
+                          The final —and perhaps the most important — step is to interview the shortlisted digital agencies to identify the one you can develop a long-term relationship with.
+                        </Text>
+                      </Box>
+
+                      <Box mb={4}>
+                        Didn’t find your answer?{" "}
+                        <a href="/">
+                          <Span color="primary">Contact us here</Span>
+                        </a>
+                      </Box>
+                    </Box>
+                  </Tab.Pane>
+
+                </Tab.Content>
               </Col>
             </Row>
-          </Container>
-        </Section>
-        <Section>
-          <Container>
-            <Tab.Container id="left-tabs-example" defaultActiveKey="general">
-              <Row>
-                <Col md="4" className="mb-5 mb-md-0">
-                  <NavStyled className="flex-column mr-md-5">
-                    <Nav.Link eventKey="general">General</Nav.Link>
-                    <Nav.Link eventKey="accounts">Accounts</Nav.Link>
-                    <Nav.Link eventKey="sales">Sales</Nav.Link>
-                    <Nav.Link eventKey="support">Support</Nav.Link>
-                    <Nav.Link eventKey="license">License</Nav.Link>
-                  </NavStyled>
-                </Col>
-                <Col md="8">
-                  <Tab.Content>
-                    <Tab.Pane eventKey="general">
-                      <Box>
-                        <Box mb={4}>
-                          <Title variant="card" mb={3} fontSize="24px">
-                            Can I use Zapezzy for my clients?
-                          </Title>
-                          <Text variant="small">
-                            Create custom landing pages with Zapezzy that converts
-                            more visitors than any website. With lots of unique
-                            blocks, you can easily build a page without any
-                            design or custom coding. with Zapezzy that converts
-                            more visitors than any website.
-                          </Text>
-                        </Box>
-                        <Box mb={4}>
-                          <Title variant="card" mb={3} fontSize="24px">
-                            Do I get free updates?
-                          </Title>
-                          <Text variant="small">
-                            Create custom landing pages with Zapezzy that converts
-                            more visitors than any website. With lots of unique
-                            blocks, you can easily build a page without any
-                            design or custom coding.
-                          </Text>
-                        </Box>
-                        <Box mb={4}>
-                          <Title variant="card" mb={3} fontSize="24px">
-                            Will you provide support?
-                          </Title>
-                          <Text variant="small">
-                            Create custom landing pages with Zapezzy that converts
-                            more visitors than any website. With lots of unique
-                            blocks, you can easily build a page without any
-                            design or custom coding.
-                          </Text>
-                        </Box>
-                        <Box mb={4}>
-                          Didn’t find your answer?{" "}
-                          <a href="/">
-                            <Span color="primary">Contact us here</Span>
-                          </a>
-                        </Box>
-                      </Box>
-                    </Tab.Pane>
-                    <Tab.Pane eventKey="accounts">
-                      <Box>
-                        <Box mb={4}>
-                          <Title variant="card" mb={3} fontSize="24px">
-                            Does it work with WordPress?
-                          </Title>
-                          <Text variant="small">
-                            Create custom landing pages with Zapezzy that converts
-                            more visitors than any website. With lots of unique
-                            blocks, you can easily build a page without any
-                            design or custom coding. with Zapezzy that converts
-                            more visitors than any website.
-                          </Text>
-                        </Box>
-                        <Box mb={4}>
-                          <Title variant="card" mb={3} fontSize="24px">
-                            What is your Privacy Policy?
-                          </Title>
-                          <Text variant="small">
-                            Create custom landing pages with Zapezzy that converts
-                            more visitors than any website. With lots of unique
-                            blocks, you can easily build a page without any
-                            design or custom coding. with Zapezzy that converts
-                            more visitors than any website.
-                          </Text>
-                        </Box>
+          </Tab.Container>
+        </Container>
+      </Section>
 
-                        <Box mb={4}>
-                          Didn’t find your answer?{" "}
-                          <a href="/">
-                            <Span color="primary">Contact us here</Span>
-                          </a>
-                        </Box>
-                      </Box>
-                    </Tab.Pane>
-                    <Tab.Pane eventKey="sales">
-                      <Box>
-                        <Box mb={4}>
-                          <Title variant="card" mb={3} fontSize="24px">
-                            How many sales?
-                          </Title>
-                          <Text variant="small">
-                            Create custom landing pages with Zapezzy that converts
-                            more visitors than any website. With lots of unique
-                            blocks, you can easily build a page without any
-                            design or custom coding. with Zapezzy that converts
-                            more visitors than any website.
-                          </Text>
-                        </Box>
-                        <Box mb={4}>
-                          <Title variant="card" mb={3} fontSize="24px">
-                            What is your Privacy Policy?
-                          </Title>
-                          <Text variant="small">
-                            Create custom landing pages with Zapezzy that converts
-                            more visitors than any website. With lots of unique
-                            blocks, you can easily build a page without any
-                            design or custom coding. with Zapezzy that converts
-                            more visitors than any website.
-                          </Text>
-                        </Box>
-
-                        <Box mb={4}>
-                          Didn’t find your answer?{" "}
-                          <a href="/">
-                            <Span color="primary">Contact us here</Span>
-                          </a>
-                        </Box>
-                      </Box>
-                    </Tab.Pane>
-                    <Tab.Pane eventKey="support">
-                      <Box>
-                        <Box mb={4}>
-                          <Title variant="card" mb={3} fontSize="24px">
-                            How long you support us?
-                          </Title>
-                          <Text variant="small">
-                            Create custom landing pages with Zapezzy that converts
-                            more visitors than any website. With lots of unique
-                            blocks, you can easily build a page without any
-                            design or custom coding. with Zapezzy that converts
-                            more visitors than any website.
-                          </Text>
-                        </Box>
-
-                        <Box mb={4}>
-                          Didn’t find your answer?{" "}
-                          <a href="/">
-                            <Span color="primary">Contact us here</Span>
-                          </a>
-                        </Box>
-                      </Box>
-                    </Tab.Pane>
-                    <Tab.Pane eventKey="license">
-                      <Box>
-                        <Box mb={4}>
-                          <Title variant="card" mb={3} fontSize="24px">
-                            Do you have any MIT licensed version?
-                          </Title>
-                          <Text variant="small">
-                            Create custom landing pages with Zapezzy that converts
-                            more visitors than any website. With lots of unique
-                            blocks, you can easily build a page without any
-                            design or custom coding. with Zapezzy that converts
-                            more visitors than any website.
-                          </Text>
-                        </Box>
-
-                        <Box mb={4}>
-                          Didn’t find your answer?{" "}
-                          <a href="/">
-                            <Span color="primary">Contact us here</Span>
-                          </a>
-                        </Box>
-                      </Box>
-                    </Tab.Pane>
-                  </Tab.Content>
-                </Col>
-              </Row>
-            </Tab.Container>
-          </Container>
-        </Section>
-      </PageWrapper>
     </>
   );
 };

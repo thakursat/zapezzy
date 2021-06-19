@@ -21,16 +21,12 @@ const Content = () => (
         <Row className="justify-content-center pb-4">
           <Col lg="6">
             <Title variant="hero">
-              Our mission is to make your life easier.
+              Who we are
             </Title>
           </Col>
           <Col lg="6" className="pl-lg-5">
             <Text>
-              Create custom landing pages with Zapezzy that converts more visitors
-              than any website. With lots of unique blocks, you can easily build
-              a page without coding. Create custom landing pages with Zapezzy that
-              converts more visitors than any website. With lots of unique
-              blocks, you can easily build a page without coding.
+              We created Zapezzy by blending our skills for web/app development, machine learning, and brand creation into a powerful, agile team. Our team of designers, developers, and project managers partner with you to build forward-thinking user experiences, so you can focus on result-driven outcomes.
             </Text>
           </Col>
         </Row>

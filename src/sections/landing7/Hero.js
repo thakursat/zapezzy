@@ -13,7 +13,7 @@ const Hero = () => {
           className="position-relative"
           css={`
             z-index: 10;
-            height :100vh;
+            height:90vh;
           `}
         >
           <Row>
@@ -39,15 +39,7 @@ const Hero = () => {
                 >
                   Professional developers creating meaningful digital experiences.
                 </Title>
-                <Box
-                  pt="12px"
-                  data-aos="fade-up"
-                  data-aos-duration="1500"
-                  data-aos-once="true"
-                  data-aos-delay="1300"
-                >
-                  <Button>Get In Touch</Button>
-                </Box>
+
               </Box>
             </Col>
           </Row>

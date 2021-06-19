@@ -30,7 +30,7 @@ const SiteHeader = styled.header`
       box-shadow: 0 12px 34px -11px rgba(65, 62, 101, 0.1);
       z-index: 9999;
       background: ${({ dark, theme }) =>
-        dark ? theme.colors.dark : theme.colors.light};
+    dark ? theme.colors.dark : theme.colors.light};
     }
   }
 
@@ -117,7 +117,7 @@ const Menu = styled.ul`
     > .nav-link {
       @media ${device.lg} {
         color: ${({ dark, theme }) =>
-          dark ? theme.colors.light : theme.colors.darkShade}!important;
+    dark ? theme.colors.light : theme.colors.darkShade}!important;
         font-size: 16px;
         font-weight: 500;
         line-height: 24px;
@@ -271,9 +271,8 @@ const Header = ({ isDark = false }) => {
   return (
     <>
       <SiteHeader
-        className={`sticky-header ${showScrolling ? "scrolling" : ""} ${
-          showReveal ? "reveal-header" : ""
-        }`}
+        className={`sticky-header ${showScrolling ? "scrolling" : ""} ${showReveal ? "reveal-header" : ""
+          }`}
         dark={isDark ? 1 : 0}
       >
         <Container fluid>
@@ -417,18 +416,10 @@ const Header = ({ isDark = false }) => {
                 </Menu>
               </div>
             </div>
-            <div className="header-btns ml-auto ml-lg-0 d-none d-md-block">
-              <Link
-                className="btn-red hvr-bounce-to-left"
-                to="/"
-              >
-                Get Started
-              </Link>
-            </div>
+
             <ToggleButton
-              className={`navbar-toggler btn-close-off-canvas ml-3 ${
-                gContext.visibleOffCanvas ? "collapsed" : ""
-              }`}
+              className={`navbar-toggler btn-close-off-canvas ml-3 ${gContext.visibleOffCanvas ? "collapsed" : ""
+                }`}
               type="button"
               data-toggle="collapse"
               data-target="#mobile-menu"

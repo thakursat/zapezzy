@@ -4,18 +4,17 @@ import PageWrapper from "../components/PageWrapper";
 import Hero from "../sections/common/Hero";
 import Content from "../sections/about/Content";
 import Team from "../sections/about/Team";
-import Cta from "../sections/about/CTA";
+import Faq from "./faq";
+import Cta from "../sections/landing4/CTA";
 
 const About = () => {
   return (
     <>
       <PageWrapper>
-        <Hero title="About us">
-          Create custom landing pages with Zapezzy that converts more visitors
-          than any website.
+        <Hero title="We drive experiences for brands with purpose.">
         </Hero>
         <Content />
-        <Team />
+        <Faq />
         <Cta />
       </PageWrapper>
     </>

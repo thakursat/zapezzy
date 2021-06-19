@@ -54,7 +54,7 @@ const Contact2 = () => {
                         <Title variant="card" fontSize="24px">
                           Call us
                         </Title>
-                        <Text>+1-492-4918-395</Text>
+                        <Text>+91 8174483843</Text>
                         <Text>+14-394-409-591</Text>
                       </Box>
                     </Col>

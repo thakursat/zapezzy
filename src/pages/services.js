@@ -7,10 +7,11 @@ import Content1 from "../sections/landing4/Content1";
 import Content2 from "../sections/landing6/Content1";
 import Content3 from "../sections/landing6/Content2";
 import Cta from "../sections/landing4/CTA";
+import Seo from '../components/SEO'
 
 const Career = () => {
     return (
-        <>
+        <>  <Seo title={"Services"} />
             <PageWrapper footerDark>
                 <Hero title="From Website, Mobile App to ML powered applications, we've got all covered.">
                 </Hero>

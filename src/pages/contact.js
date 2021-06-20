@@ -1,11 +1,10 @@
 import React from "react";
 import styled from "styled-components";
 import { Container, Row, Col } from "react-bootstrap";
-
 import { Title, Button, Section, Box, Text, Input } from "../components/Core";
-
 import PageWrapper from "../components/PageWrapper";
 import { device } from "../utils";
+import Seo from '../components/SEO'
 
 const FormStyled = styled.form``;
 
@@ -29,6 +28,7 @@ const WidgetWrapper = styled(Box)`
 const Contact2 = () => {
   return (
     <>
+      <Seo title={"Contact"} />
       <PageWrapper footerDark>
         <Section>
           <div className="pt-5"></div>

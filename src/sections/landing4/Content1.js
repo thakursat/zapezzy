@@ -109,21 +109,20 @@ const Content1 = () => (
             >
               <div>
                 <Title>
-                  Make beautiful{" "}
+                  Dynamic, Modern, Full-Stack
                   <br className="d-none d-sm-block d-md-none d-lg-block" />{" "}
-                  landing pages easily.
+                  Web Development Solutions
                 </Title>
                 <Text mb={4}>
-                  Create custom landing pages with Zapezzy that converts more
-                  visitors than any website. With lots of unique blocks, you can
-                  easily build a page without coding.
+                  Your website is the heart and soul of your business and the engine of its online presence. It’s where you introduce the world to your brand and where you inspire visitors to take action. Zapezzy has a team of highly skilled specialists dedicated to designing the most robust website for your business that generates traffic and coverts leads into paying customers.
                 </Text>
 
                 <ULStyled>
-                  <li>50+ HTML Elements</li>
-                  <li>6 Month Support</li>
-                  <li>Bootstrap 4 Framework</li>
-                  <li>Lifetime Updates</li>
+                  <li>Blazing fast websites</li>
+                  <li>Awesome SEO</li>
+                  <li>Higly scalable</li>
+                  <li>Mobile first Design</li>
+
                 </ULStyled>
               </div>
             </div>

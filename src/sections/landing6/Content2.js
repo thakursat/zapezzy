@@ -74,14 +74,12 @@ const Content2 = () => {
             <Col lg="6" md={9}>
               <div>
                 <Title>
-                  See the world &amp;{" "}
+                  Get ahead,
                   <br className="d-none d-sm-block d-md-none d-xl-block" />
-                  spend less always.
+                  with Machine Learning
                 </Title>
                 <Text>
-                  Create custom landing pages with Zapezzy that converts more
-                  visitors than any website. With lots of unique blocks, you can
-                  easily build a page without coding.
+                  Our mission is to bring the benefits of state-of-the-art machine learning and artificial intelligence to every organization. Our services range from advisory projects and feasibility studies to end-to-end development and refinement of machine learning systems and products.
                 </Text>
               </div>
             </Col>

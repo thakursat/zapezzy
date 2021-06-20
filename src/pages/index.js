@@ -12,7 +12,6 @@ const IndexPage = () => {
       <Seo title={"Home"} />
       <PageWrapper headerDark footerDark>
         <Hero />
-
         <Content1 />
         <Content2 />
         <Cta />

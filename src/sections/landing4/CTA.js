@@ -9,9 +9,9 @@ const CTA = () => (
     <Box bg="dark" className="position-relative" py={[4, null, null, 5, 6]}>
       <Container>
         <Row className="justify-content-center">
-          <Col md="9" lg="9">
+          <Col md="10" lg="10">
             <Box className="text-center">
-              <Title color="light">Let’s make things happen</Title>
+              <Title color="light">Mark your digital presence now!</Title>
               <Text mb={4} color="light" opacity={0.7}>
                 We’re always interested in talking about your product.
               </Text>

@@ -34,13 +34,11 @@ const Contact2 = () => {
           <div className="pt-5"></div>
           <Container>
             <Row className="justify-content-center text-center">
-              <Col lg="8">
+              <Col lg="10">
                 <div className="banner-content">
-                  <Title variant="hero">Contact us</Title>
+                  <Title variant="hero">What's up?</Title>
                   <Text>
-                    Create custom landing pages with Zapezzy that converts{" "}
-                    <br className="d-none d-md-block" /> more visitors than any
-                    website.{" "}
+                    Tell us about your project. We respond to almost every enquiry within one business day. Really!
                   </Text>
                 </div>
               </Col>
@@ -49,33 +47,25 @@ const Contact2 = () => {
               <Col xl="10">
                 <WidgetWrapper>
                   <Row>
-                    <Col md="4" sm="6">
+                    <Col md="6" sm="6">
                       <Box className="mb-5">
                         <Title variant="card" fontSize="24px">
                           Call us
                         </Title>
-                        <Text>+91 8174483843</Text>
-                        <Text>+14-394-409-591</Text>
+                        <Text>+91 8174901463</Text>
+
                       </Box>
                     </Col>
-                    <Col md="4" sm="6">
+                    <Col md="6" sm="6">
                       <Box className="mb-5">
                         <Title variant="card" fontSize="24px">
                           Email us
                         </Title>
-                        <Text>info@mail.com</Text>
-                        <Text>support@mail.com</Text>
+                        <Text>hello@zapezzy.com</Text>
+
                       </Box>
                     </Col>
-                    <Col md="4" sm="6">
-                      <Box className="mb-5">
-                        <Title variant="card" fontSize="24px">
-                          Contact us
-                        </Title>
-                        <Text>34 Madison Street,</Text>
-                        <Text>NY, USA 10005</Text>
-                      </Box>
-                    </Col>
+
                   </Row>
                 </WidgetWrapper>
               </Col>

@@ -82,14 +82,14 @@ const Content1 = () => (
               data-aos-once="true"
             >
               <Box>
-                <Title>Save time on development.</Title>
+                <Title>Your Business Will Grow, Guaranteed.</Title>
                 <Text mb={4}>
-                  Create custom landing pages with Zapezzy that converts more
-                  visitors than any website. With lots of unique blocks, you can
-                  easily build a page without coding.
+                  Seriously, no asterix, no catch. You might call us crazy and we would understand, but we prefer driven. We are driven to deliver the results you desire and won’t stop until we do.
+                  <br />
+                  Our guarantee puts the pressure on us so you can save energy for running your business.
                 </Text>
 
-                <Button mt={3}>Get Started</Button>
+
               </Box>
             </div>
           </Col>

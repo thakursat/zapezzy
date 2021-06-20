@@ -11,8 +11,7 @@ const Career = () => {
     <>
       <PageWrapper footerDark>
         <Hero title="Career">
-          Create custom landing pages with Zapezzy that converts more visitors
-          than any website.
+
         </Hero>
         <Content />
         <Feature />

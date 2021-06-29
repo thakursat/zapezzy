@@ -26,7 +26,7 @@ const Hero = () => {
                   data-aos-once="true"
                   data-aos-delay="700"
                 >
-                  A creative agency who helps you uplift your brand
+                  A digital agency who helps you uplift your brand
                 </Text>
                 <Title
                   my={4}

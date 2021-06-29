@@ -29,22 +29,22 @@ const SectionTitle = styled.h2`
 
 const HeroTitle = styled(SectionTitle)`
   letter-spacing: -2.81px;
-  font-size: 50px;
+  font-size: 40px;
   line-height: 56px;
   margin-bottom: 30px;
 
   @media ${device.sm} {
-    font-size: 66px;
+    font-size: 56px;
     line-height: 70px;
   }
 
   @media ${device.lg} {
-    font-size: 76px;
+    font-size: 66px;
     line-height: 84px;
   }
 
   @media ${device.xl} {
-    font-size: 80px;
+    font-size: 70px;
     line-height: 84px;
   }
 `;

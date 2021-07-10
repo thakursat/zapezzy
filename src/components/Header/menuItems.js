@@ -103,12 +103,13 @@ export const menuItems = [
     label: "About",
   },
   {
-    name: "career",
-    label: "Career",
-  },
-  {
     name: "contact",
     label: "Contact",
   },
+  {
+    name: "career",
+    label: "Career",
+  },
+  
 
 ];

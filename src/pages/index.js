@@ -11,7 +11,7 @@ const IndexPage = () => {
     <>
       <Seo title={"Home"} />
       <PageWrapper headerDark footerDark>
-        <Hero />
+        <Hero background="dark" title="Professional developers creating meaningful digital experiences." subTitle=" A digital agency who helps you uplift your brand"/>
         <Content1 />
         <Content2 />
         <Cta />

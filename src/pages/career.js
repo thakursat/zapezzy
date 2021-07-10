@@ -1,7 +1,7 @@
 import React from "react";
 
 import PageWrapper from "../components/PageWrapper";
-import Hero from "../sections/common/Hero";
+import Hero from "../sections/landing7/Hero";
 import Content from "../sections/career/Content";
 import Feature from "../sections/career/Feature";
 import Roles from "../sections/career/Roles";
@@ -11,8 +11,8 @@ const Career = () => {
   return (
     <>
       <Seo title={"Career"} />
-      <PageWrapper footerDark>
-        <Hero title="Career">
+      <PageWrapper headerDark footerDark>
+        <Hero title="Career" background="dark">
 
         </Hero>
         <Content />

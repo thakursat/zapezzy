@@ -102,7 +102,7 @@ const Content2 = () => (
                 <img src={imgContentMobile} alt="" className="img-fluid" />
               </div>
 
-              <ShapeCard
+              {/* <ShapeCard
                 bg="primary"
                 p="18px"
                 borderRadius={8}
@@ -141,7 +141,7 @@ const Content2 = () => (
                     You’ve got a new project from David!
                   </Title>
                 </Box>
-              </ShapeCard>
+              </ShapeCard> */}
             </div>
           </Col>
           <Col lg="7">
@@ -153,16 +153,14 @@ const Content2 = () => (
               <div className="content-text pl-lg--50">
                 <div className="section-title">
                   <Title>
-                    It’s everything you’ll <br className="d-none d-sm-block" />{" "}
-                    ever need.
+                    Demand More From  <br className="d-none d-sm-block" />{" "}
+                    Your Project.
                   </Title>
                   <Text mb={4}>
-                    Create custom landing pages with Zapezzy that converts more
-                    visitors than any website. With lots of unique blocks, you
-                    can easily build a page without coding.
+                    We have all the experience and industry-leading know-how needed to transform your online performance into something to be proud of. With significant upturns and consistent results characterising your impressive, new-look online presence, you’ll be delighted with the results.
                   </Text>
                 </div>
-                <div className="mt-5">
+                {/* <div className="mt-5">
                   <ContentCard
                     title="50+ Unique Design Blocks"
                     color="primary"
@@ -179,7 +177,7 @@ const Content2 = () => (
                   >
                     on Every Devices
                   </ContentCard>
-                </div>
+                </div> */}
               </div>
             </div>
           </Col>

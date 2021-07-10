@@ -4,6 +4,7 @@ import { Container, Row, Col } from "react-bootstrap";
 
 import { Title, Button, Section, Box } from "../../components/Core";
 import { device } from "../../utils";
+import { Link } from "gatsby";
 
 import imgBorderShape from "../../assets/image/png/cta-border-shape.png";
 import imgCTA from "../../assets/image/png/cta-shape.png";
@@ -53,7 +54,7 @@ const CTA = () => (
             className="d-flex align-items-center justify-content-lg-end mt-4 mt-md-0"
           >
             <div>
-              <Button>Get Beta Access</Button>
+            <Link to="/contact"> <Button>Contact Us</Button></Link>
             </div>
           </Col>
         </Row>

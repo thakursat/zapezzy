@@ -1,6 +1,6 @@
 import React from "react";
 import PageWrapper from "../components/PageWrapper";
-import Hero from "../sections/common/Hero";
+import Hero from "../sections/landing7/Hero";
 import Content from "../sections/about/Content";
 import Faq from "./faq";
 import Cta from "../sections/landing4/CTA";
@@ -10,8 +10,8 @@ const About = () => {
   return (
     <>
       <Seo title={"About"} />
-      <PageWrapper>
-        <Hero title="We drive experiences for brands with purpose.">
+      <PageWrapper headerDark>
+        <Hero background="dark" title="We drive experiences for brands with purpose.">
         </Hero>
         <Content />
         <Faq />

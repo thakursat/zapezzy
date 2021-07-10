@@ -39,7 +39,7 @@ const Content1 = () => (
                 <img src={imgContentMobile} alt="" className="img-fluid" />
               </div>
 
-              <ShapeCard
+              {/* <ShapeCard
                 bg="warning"
                 p="18px"
                 borderRadius={8}
@@ -65,14 +65,12 @@ const Content1 = () => (
                 </Box>
 
                 <Box pr="40px">
-                  <Text fontSize={1} lineHeight="24px" opacity={0.7} mb={0}>
-                    Next meeting on 30 mins
-                  </Text>
+                  
                   <Title variant="card" fontWeight={300} mb={0}>
-                    Project Discussion with John
+                    Best developer
                   </Title>
                 </Box>
-              </ShapeCard>
+              </ShapeCard> */}
             </div>
           </Col>
           <Col lg="6" className="order-lg-1 mt-5 mt-lg-0">

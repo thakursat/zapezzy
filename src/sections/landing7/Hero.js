@@ -1,13 +1,13 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 
-import { Title, Button, Section, Box, Text } from "../../components/Core";
+import { Title, Section, Box, Text } from "../../components/Core";
 
-const Hero = () => {
+const Hero = ({title, subTitle, background}) => {
   return (
     <>
       {/* <!-- Hero Area --> */}
-      <Section bg="dark">
+      <Section bg={background}>
         <div className="pt-5"></div>
         <Container
           className="position-relative"
@@ -20,24 +20,24 @@ const Hero = () => {
             <Col md="11" lg="10" xl="9">
               <Box py={4}>
                 <Text
-                  color="light"
+                  color={background==="light"?"dark":"light"}
                   data-aos="fade-up"
                   data-aos-duration="1500"
                   data-aos-once="true"
                   data-aos-delay="700"
                 >
-                  A digital agency who helps you uplift your brand
+                 {subTitle}
                 </Text>
                 <Title
                   my={4}
                   variant="hero"
-                  color="light"
+                  color={background==="light"?"dark":"light"}
                   data-aos="fade-up"
                   data-aos-duration="1500"
                   data-aos-once="true"
                   data-aos-delay="1000"
                 >
-                  Professional developers creating meaningful digital experiences.
+                 {title}
                 </Title>
 
               </Box>

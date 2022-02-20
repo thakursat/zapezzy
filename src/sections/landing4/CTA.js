@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "gatsby";
 import { Container, Row, Col } from "react-bootstrap";
 
 import { Title, Button, Box, Text } from "../../components/Core";
@@ -16,8 +17,9 @@ const CTA = () => (
                 We’re always interested in talking about your product.
               </Text>
               <div className="d-flex flex-column align-items-center pt-3">
-                <Button mb={2}>Connect</Button>
-
+                <Link to="/contact">
+                  <Button>Contact Us</Button>
+                </Link>
               </div>
             </Box>
           </Col>

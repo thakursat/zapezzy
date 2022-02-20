@@ -106,10 +106,4 @@ export const menuItems = [
     name: "contact",
     label: "Contact",
   },
-  {
-    name: "career",
-    label: "Career",
-  },
-  
-
 ];

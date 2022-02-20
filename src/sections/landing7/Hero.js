@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 
 import { Title, Section, Box, Text } from "../../components/Core";
 
-const Hero = ({title, subTitle, background}) => {
+const Hero = ({ title, subTitle, background }) => {
   return (
     <>
       {/* <!-- Hero Area --> */}
@@ -13,33 +13,32 @@ const Hero = ({title, subTitle, background}) => {
           className="position-relative"
           css={`
             z-index: 10;
-            height:90vh;
+            min-height: 63vh;
           `}
         >
           <Row>
             <Col md="11" lg="10" xl="9">
               <Box py={4}>
                 <Text
-                  color={background==="light"?"dark":"light"}
+                  color={background === "light" ? "dark" : "light"}
                   data-aos="fade-up"
                   data-aos-duration="1500"
                   data-aos-once="true"
                   data-aos-delay="700"
                 >
-                 {subTitle}
+                  {subTitle}
                 </Text>
                 <Title
                   my={4}
                   variant="hero"
-                  color={background==="light"?"dark":"light"}
+                  color={background === "light" ? "dark" : "light"}
                   data-aos="fade-up"
                   data-aos-duration="1500"
                   data-aos-once="true"
                   data-aos-delay="1000"
                 >
-                 {title}
+                  {title}
                 </Title>
-
               </Box>
             </Col>
           </Row>
